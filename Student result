@@ -1,0 +1,23 @@
+Sno=int(input("enter sno"))
+Sname=input("enter Sname")
+Sgrp=input("enter Sgrp")
+Eng=int(input("enter Eng marks"))
+Hin=int(input("enter Hin marks"))
+Accounts=int(input("enter Accounts marks"))
+Lifeskills=int(input("enter Lifeskills marks"))
+Java=int(input("enter Java marks"))
+Os=int(input("enter Os marks"))
+Total=Eng+Hin+Accounts+Lifeskills+Java+Os
+Avg=Total/3
+if Avg>=91:
+   print("A grade")
+elif Avg>=81:
+   print("B grade")
+elif Avg>=71:
+   print("C grade")
+elif AVG>=60:
+   print("D grade")
+elif Avg>=40:
+   print("pass")
+else:
+   print("fail")
