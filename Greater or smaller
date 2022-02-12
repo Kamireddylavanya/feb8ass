@@ -1,0 +1,14 @@
+num1=float(input("Number 1 : "))
+num2=float(input("Number 2 : "))
+if num1 == num2:
+    print("Number 1 is equal to Number 2")
+elif num1 > num2:
+    print("Number 1 greater than Number 2")
+elif num2 > num1:
+    print("number 2 is greater than number 1")
+elif num1 < num2:
+    print("Number 1 lesser than Number 2")
+elif num2 < num1:
+    print("number 2 lesser than number 1")
+elif num1 != num2:
+    print("Number 1 is not equal to number 2")
