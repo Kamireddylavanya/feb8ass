@@ -1,0 +1,6 @@
+If __name__ == '__main____:
+    n = int(input()) 
+    i=0
+    While i<n:
+        Print(i*i) 
+        i=i+1
